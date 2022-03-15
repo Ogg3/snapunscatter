@@ -154,10 +154,6 @@ def main():
 
     args = parser.parse_args()
 
-    if parser.error:
-        parser.print_help()
-        sys.exit(0)
-
     print("INFO - Using arguments " + str(args))
 
     path = args.input_path
